@@ -1,0 +1,20 @@
+{
+  "skill": "x-account-risk-checker",
+  "test_cases": [
+    {
+      "name": "basic_risk_check",
+      "input": "分析一下我的号今天回复互动有点多，是否有风险",
+      "assertions": ["Summarizes X behavioral detection rules first", "Analyzes activity for mechanical patterns", "Gives risk level and avoidance advice"]
+    },
+    {
+      "name": "with_username",
+      "input": "检查一下 @haosen9527 的账号风险",
+      "assertions": ["Fetches recent posts using X tools", "Identifies repetitive reply patterns if present", "Gives specific risk judgment"]
+    },
+    {
+      "name": "rules_only",
+      "input": "先说一下X平台的账号风险检测规则",
+      "assertions": ["Lists high-risk signals like high-frequency mechanical interactions", "Mentions permanent ban and appeal process"]
+    }
+  ]
+}
