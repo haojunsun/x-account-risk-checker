@@ -1,0 +1,21 @@
+{
+  "skill": "x-account-risk-checker",
+  "test_cases": [
+    {
+      "input": "使用grok分析账号当前风险",
+      "should_trigger": true
+    },
+    {
+      "input": "检查一下我的X账号今天互动是否有风险",
+      "should_trigger": true
+    },
+    {
+      "input": "我的号回复有点多，会不会被封",
+      "should_trigger": true
+    },
+    {
+      "input": "写一首关于猫的诗",
+      "should_trigger": false
+    }
+  ]
+}
